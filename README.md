@@ -65,6 +65,8 @@
         
     + Private ? / Public ? _____ baseline
         #### Comformer + Attention pooling layer
+        #### overfit
+        #### 減少predict layer
         
 
 5. Transformer
