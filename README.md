@@ -51,19 +51,19 @@
     + train / valid資料重新分配的地方不能有隨機性 or 用 random seed控制
 
 4. Self-attention
-    + Private ? / Public ? _____ baseline
+    + Private 0.94175 / Public 0.936 boss baseline
         #### TransformerEncoder
         #### 調整參數
         #### Train超久
         #### 超乎想像的好
         #### 嚴重overfit
-    + Private ? / Public ? _____ baseline
+    + Private 0.9295 / Public 0.92625 boss baseline
         #### Comformer
         #### 調整參數
         #### 超乎想像的好
         #### 輕微overfit
         
-    + Private ? / Public ? _____ baseline
+    + Private 0.96425 / Public 0.9635 boss baseline
         #### Comformer + Attention pooling layer
         #### overfit
         #### 減少predict layer
@@ -79,3 +79,13 @@
         #### Sample Code Transformer
 
 6. Generative Model
+
+    + DDPM
+
+    + DCGAN
+
+    + WGAN
+
+    + WGAN-GP
+
+    + StyleGAN
